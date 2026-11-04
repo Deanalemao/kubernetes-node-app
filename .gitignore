@@ -1,0 +1,17 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Kubernetes local secret files
+*-secret.yaml
+secrets/
+
+# Local Kubernetes configuration
+.kube/
+.minikube/
+
+# Temporary files
+*.log
+*.tmp
+.DS_Store
